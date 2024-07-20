@@ -6,7 +6,8 @@ const userCount = 15;
 
 function Home() {
     return (
-        <div class="heading">
+        <div class="parent">
+              <div class="heading">
             <h1>{I18n({ Keyword: "WelcomeMessage" })}</h1>
 
             <p>
@@ -19,7 +20,7 @@ function Home() {
 
             <h5>{I18n({ Keyword: "endMessage" })}</h5>
 
-            <select
+            <select class="button"
                 defaultValue={localStorage.getItem("lang")}
                 onChange={(e) => {
                     localStorage.setItem("lang", e.target.value);
@@ -34,6 +35,8 @@ function Home() {
             <p>
                 {I18n({ Keyword: "usersStatMessage" }, "{usersCount}", userCount)}
             </p>
+        </div>
+       
         </div>
     );
 }

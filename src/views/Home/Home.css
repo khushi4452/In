@@ -1,3 +1,33 @@
 .heading {
     text-align: center;
+    padding-top: 5px;
+    background-color: #9df5ef;
+     width: 400px;
+     margin: 40px;
+     justify-content: center;
+     height: 350px;
+     align-items: center;
+     border-radius: 25px;
+     padding: 20px;
+     box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+
+
+
+}
+
+.button {
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: 
+    #31cde8
+    ;
+}
+
+
+.parent {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    height: 100vh; 
 }
