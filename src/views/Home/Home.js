@@ -6,7 +6,7 @@ const userCount = 15;
 
 function Home() {
     return (
-        <div>
+        <div class="heading">
             <h1>{I18n({ Keyword: "WelcomeMessage" })}</h1>
 
             <p>
